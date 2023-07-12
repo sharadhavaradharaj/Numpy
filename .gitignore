@@ -1,2 +1,3 @@
 .venv/
-numpy1.py
+*.ipynb
+.gitignore
