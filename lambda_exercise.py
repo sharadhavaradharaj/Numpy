@@ -82,29 +82,7 @@ Elements of the said list that contain specific substring:
 
 
 
-
-
-
 ''' 6)
-check whether a given string contains a capital letter, a lower case letter, a number and a minimum length of 8 characters.
-(This is like a password verification function, HINT: Python function 'any' may be useful)
-'''
-
-str1 = "Hello8world"
-str1 = "HELLO"
-str1= "hello"
-
-
-
-
-
-
-
-
-
-
-
-''' 7)
 Write a Python program to sort a list of tuples using Lambda.
 
 # Original list of tuples:
@@ -113,3 +91,19 @@ original_scores = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sci
 # Expected Result:
 # [('Social sciences', 82), ('English', 88), ('Science', 90), ('Maths', 97)]
 '''
+
+
+
+
+
+
+''' 7)
+check whether a given string contains a capital letter, a lower case letter, a number and a minimum length of 8 characters.
+(This is like a password verification function, HINT: Python function 'any' may be useful). Use all three of the below
+varaitions (str1, str2, str3) to check if your program works. It should FAIL for str1 and str2 and PASS for str3.
+'''
+
+str1 = "HELLO"
+str2 = "hello"
+str3= "Hello8world"
+
